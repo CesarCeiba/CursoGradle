@@ -4,7 +4,7 @@ import co.ceiba.domain.Person;
 
 public class PersonTestDataBuilder {
 	private String name = "Ceiba";
-	private String lastName = "Software House";
+	private String lastName = "Software House S.A.S";
 	
 	public PersonTestDataBuilder withName(String name){
 		this.name = name;

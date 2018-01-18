@@ -1,5 +1,4 @@
 package co.ceiba.services;
-
 import co.ceiba.domain.Person;
 
 public class NotifyPersonService {

@@ -18,7 +18,6 @@ public class NotifyPersonServiceTest {
 	
 	@Before
 	public void setUp(){
-		emailService = new EmailService();
 		emailService = mockito.mock(EmailService.class);
 		mockito.when(emailService.sendMail(mockito.anyString())).thenReturn("Hola mundo");
 		notifyPersonService = new NotifyPersonService(emailService);

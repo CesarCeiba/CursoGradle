@@ -6,6 +6,6 @@ public class EmailService {
 	}
 	
 	public String sendMail(String Message){
-		return "Email send succeful with message "+Message;		
+		return "Email send succeful with message "+Message+ "Date 18/01/2018";		
 	}
 }
